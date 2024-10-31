@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "documents"
+version = "0.1.0"
+description = ""
+authors = ["SalehehDP <saleheh.dp@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.19"
+psycopg2 = "^2.9.7"
+fastapi = "^0.101.1"
+asyncpg = "^0.28.0"
+dash-ag-grid = "^2.3.0"
+pandas = "^2.0.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

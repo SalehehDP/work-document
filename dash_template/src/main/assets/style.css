@@ -1,0 +1,59 @@
+/* This creates a skinny side bar fixed to the left of the page */
+
+
+.main_sidebar {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* font_family: 'B Badr'; */
+    height: 965px;
+    color: #D4D4D4;
+    background-color: #4C4C4C;
+}
+
+.sub_sidebar {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    color: #D4D4D4;
+    background-color: #636262;
+}
+
+/* when the sidebar is hovered, reveal the labels */
+.page {
+    color: #D4D4D4;
+    /* font-family: 'B Badr'; */
+    /* font-weight: 300; */
+    text-align: right;
+    background-color: #854949;
+
+}
+
+.sub_page {
+    color: #edebeb;
+    /* font-family: 'B Badr';
+    font-size: 600; */
+    /* font-weight: 600; */
+    text-align: right;
+    background-color: #854949;
+
+}
+
+.page:hover {
+    color: rgb(44, 44, 44);
+    background-color: rgb(134, 134, 134);
+}
+
+.page:active {
+    background-color: rgb(210, 210, 210);
+}
+
+
+.sub_page:hover {
+    color: rgb(44, 44, 44);
+    background-color: rgb(134, 134, 134);
+}
+
+.sub_page:active {
+    background-color: rgb(210, 210, 210);
+}

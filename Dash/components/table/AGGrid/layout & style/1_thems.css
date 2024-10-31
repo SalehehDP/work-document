@@ -1,0 +1,9 @@
+/* set the background color of many elements across the grid */
+.ag-theme-alpine {
+    --ag-background-color: #ddd !important;
+}
+
+/* change the font style of a single UI component */
+.ag-theme-alpine .ag-header-cell-label {
+    font-style: italic !important;
+}
